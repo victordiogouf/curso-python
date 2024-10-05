@@ -1,0 +1,1 @@
+print(12, 54, sep=' -> ', end=' -> end\n') 
