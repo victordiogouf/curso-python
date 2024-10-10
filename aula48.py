@@ -23,3 +23,8 @@ print(list_c)
 list_d: list[int] = list_a * 3
 
 print(list_d)
+
+list_e = list_a.copy()
+list_e.pop()
+
+print(list_e)
