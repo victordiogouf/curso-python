@@ -1,6 +1,4 @@
-from typing import List
-
-list_a: List[int] = [10, 20, 30, 40]
+list_a: list[int] = [10, 20, 30, 40]
 
 del list_a[0] # caution: moving elements can be slow
 
@@ -17,11 +15,11 @@ list_a.append(2)
 
 list_a.extend([3, 4, 5])
 
-list_b: List[int] = [6, 7, 8]
-list_c: List[int] = list_a + list_b
+list_b: list[int] = [6, 7, 8]
+list_c: list[int] = list_a + list_b
 
 print(list_c)
 
-list_d: List[int] = list_a * 3
+list_d: list[int] = list_a * 3
 
 print(list_d)
