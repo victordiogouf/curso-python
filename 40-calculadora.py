@@ -15,7 +15,7 @@ def get_float(input_msg) -> float:
 def get_option() -> str:
   while True:
     option: str = input('[q]uit, [n]ew, [c]ontinue: ')
-    if option in ['q', 'n', 'c']:
+    if option in 'qnc':
       return option
     print('Invalid option')
 
